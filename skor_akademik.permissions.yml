@@ -1,0 +1,19 @@
+add skor akademik entities:
+  title: 'Create new Skor akademik entities'
+
+administer skor akademik entities:
+  title: 'Administer Skor akademik entities'
+  description: 'Allow to access the administration form to configure Skor akademik entities.'
+  restrict access: true
+
+delete skor akademik entities:
+  title: 'Delete Skor akademik entities'
+
+edit skor akademik entities:
+  title: 'Edit Skor akademik entities'
+
+view published skor akademik entities:
+  title: 'View published Skor akademik entities'
+
+view unpublished skor akademik entities:
+  title: 'View unpublished Skor akademik entities'

@@ -1,0 +1,6 @@
+entity.skor_akademik.add_form:
+  route_name: entity.skor_akademik.add_form
+  title: 'Add Skor akademik'
+  appears_on:
+    - entity.skor_akademik.collection
+    - entity.skor_akademik.canonical

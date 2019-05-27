@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains skor_akademik.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function skor_akademik_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the skor_akademik module.
+    case 'help.page.skor_akademik':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Skor akademik untuk dasar perhitungan') . '</p>';
+      return $output;
+
+    default:
+  }
+}

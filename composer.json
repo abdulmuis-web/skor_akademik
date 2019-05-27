@@ -1,0 +1,14 @@
+{
+  "name": "drupal/skor_akademik",
+  "type": "drupal-module",
+  "description": "Skor akademik untuk dasar perhitungan",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/skor_akademik",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/skor_akademik",
+    "source": "http://cgit.drupalcode.org/skor_akademik"
+  },
+  "require": { }
+}

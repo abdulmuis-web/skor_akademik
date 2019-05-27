@@ -1,0 +1,30 @@
+<?php
+
+/**
+ * Implements hook_install().
+ *
+ * Creates some default entries on this module custom table.
+ *
+ * @see hook_install()
+ *
+ * @ingroup simulasi
+ */
+use Drupal\skor_akademik\Entity\SkorAkademik;
+
+function skor_akademik_install() {
+  
+  $entries = [
+	['id' => '10','machine' => 'matematika','name' => 'Skor Matematika', 'score' => '.40'],
+	['id' => '20','machine' => 'ipa','name' => 'Skor IPA', 'score' => '.20'],
+	['id' => '30','machine' => 'ips', 'name' => 'Skor IPS', 'score' => '.15'],
+	['id' => '40','machine' => 'english', 'name' => 'Skor Bahasa Ingris', 'score' => '.15'],
+	['id' => '50','machine' => 'indonesia', 'name' => 'Skor Bahasa Indonesia', 'score' => '.10'],
+  ];
+  
+  foreach ($entries as $entry) {
+	$entry['user_id'] = '1'; 
+    $skor_akademik = SkorAkademik::create($entry);
+	
+	$skor_akademik->save();
+  }
+}

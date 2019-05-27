@@ -1,0 +1,14 @@
+
+# Skor akademik menu items definition
+entity.skor_akademik.collection:
+  title: 'Skor akademik list'
+  route_name: entity.skor_akademik.collection
+  description: 'List Skor akademik entities'
+  parent: system.admin_structure
+  weight: 100
+
+skor_akademik.admin.structure.settings:
+  title: 'Skor akademik settings'
+  description: 'Configure Skor akademik entities'
+  route_name: skor_akademik.settings
+  parent: system.admin_structure

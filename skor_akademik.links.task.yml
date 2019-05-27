@@ -1,0 +1,22 @@
+# Skor akademik routing definition
+skor_akademik.settings_tab:
+  route_name: skor_akademik.settings
+  title: 'Settings'
+  base_route: skor_akademik.settings
+
+entity.skor_akademik.canonical:
+  route_name: entity.skor_akademik.canonical
+  base_route: entity.skor_akademik.canonical
+  title: 'View'
+
+entity.skor_akademik.edit_form:
+  route_name: entity.skor_akademik.edit_form
+  base_route: entity.skor_akademik.canonical
+  title: 'Edit'
+
+entity.skor_akademik.delete_form:
+  route_name:  entity.skor_akademik.delete_form
+  base_route:  entity.skor_akademik.canonical
+  title: Delete
+  weight: 10
+
